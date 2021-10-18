@@ -1,0 +1,73 @@
+.nd1{
+    width: 80%;
+    height: 450px;
+    margin: auto;
+    padding-left: 10%;
+}
+.nd2{
+    width: 80%;
+    height: 450px;
+    margin: auto;
+    padding-left: 10%;
+}
+.noidung{
+    width: 28%;
+    height: 98%;
+    float: left;
+    text-align: center;
+    margin-top: 100px;
+    border-radius: 50%;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    background-color: rgb(248, 247, 247);
+    
+}
+.noidung:hover{
+    /* animation: chuTruot 0.2s forwards; */
+}
+
+
+@-webkit-keyframes billgate{
+	from{
+        width: 255px;
+        height: 255px;
+        margin-top: -80px;
+        box-shadow: slategray 10px 0px 5px;
+
+	}to{
+		width: 265px;
+        height: 265px;
+        background-color: rgb(255, 255, 255);
+	}
+}
+
+
+#imgw{
+    width: 255px;
+    height: 255px;
+    margin-top: -80px;
+    box-shadow: slategray 10px 0px 5px;
+    border-radius: 50%;
+    
+}
+#imgw:hover{
+    animation: billgate 0.2s forwards;
+}
+#nda{
+   
+}
+#ndb{
+
+}
+#ndc{
+
+}
+#ndd{
+
+}
+#nde{
+
+}
+#ndf{
+
+}

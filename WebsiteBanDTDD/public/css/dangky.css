@@ -1,0 +1,55 @@
+.taoTaiKhoan{
+	width: 50%;
+	margin: auto;
+}
+.dnLeft{
+	width: 39%;
+	height: 900px;
+	background-color: #F3F3F3;
+	margin-right: 1%;
+	float: left;
+	padding: 40px;
+}
+.dnRight{
+	width: 60%;
+	height: 900px;
+	background-color: #F3F3F3;
+	float: right;
+}
+.taoTaiKhoan input, select{
+	padding: 7px;
+	border: none;
+	border-radius: 5px;
+	background-color: #e8e8e8;
+}
+.taoTaiKhoan	 input:hover{
+	background-color: #D2D2D2;
+	transition: 0.3s;
+	color: #000000;
+}
+table{
+	margin: 0 auto;
+	margin-top: 55px;
+}
+table tr td{
+	width: 200px;
+	padding: 10px;
+}
+.the{
+	width: 300px;
+	height: 40px;
+}
+.the:hover{
+	 background-color: red;
+}
+.td1{
+	width: 150px;
+}
+#btnDangKy{
+	background-color: #F7F260;	
+	border: none;
+	border-radius: 5px;
+}
+#btnDangKy:hover{
+	background-color: #F5F3AB;
+}

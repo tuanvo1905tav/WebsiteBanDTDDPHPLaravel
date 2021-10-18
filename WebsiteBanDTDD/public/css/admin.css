@@ -1,0 +1,65 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+.header{
+    width: 80%;
+    height: 200px;
+    text-align: center;
+    margin-top: 20px;
+}
+.content{
+    width: 80%;
+    height: 200px;
+    text-align: center;
+    margin-top: 50px;
+}
+table{
+    width: 70%;
+}
+tr{
+    text-align: right;
+    height: 35px;  
+}
+.input1{
+    text-align: center;
+}
+td input{
+    width: 90%;
+    height: 35px;
+}
+td select{
+    width: 90%;
+    height: 35px;
+}
+textarea{
+    width: 88%;
+    text-align: left;
+    padding: 10px;
+}
+.tieuDe{
+    text-align: right;
+}
+/* =========== */
+#btnThemSP{
+    width: 250px;
+    height: 2em;
+}
+#ttsp{
+    width: 100%;
+    border: 1px solid #888888;
+    margin-bottom: 100px;
+}
+#ttsp th{
+    width: 250px;
+    text-align: center;
+}
+#ttsp td{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}

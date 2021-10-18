@@ -1,0 +1,152 @@
+.thanhDiaChi{
+	width: 100%;
+	height: 2em;
+	background-color: #191919;
+	padding: 10px;
+}
+.tdcLeft{
+	width: 30%;
+	height: 100%;
+	float: left;
+}
+.tdcLeft i{
+	margin-right: 20px;
+}
+.tdcRight{
+	width: 70%;
+	height: 100%;
+	float: right;
+	text-align: right;
+	padding-right: 50px;
+	color: #fff;
+}
+.tdcRight span{
+	width: 70%;
+	height: 100%;
+	float: right;
+}
+.tdcRight span a{
+	text-decoration: none;
+}
+/*==========Nội dung=============*/
+.noiDung{
+    width: 100%;
+}
+/*===================Banner 1=========================*/
+.banner1{
+	width: 100%;
+	height: 715px;
+	background-image: linear-gradient(to bottom right, #dddbdc, #90abc8	); 
+	background-color: #FFFFFF;
+	background-size: cover;
+}
+.banner1 h1{
+	padding-top: 300px;
+	font-size: 50px;
+	color: #ffffff;
+	animation: chuTruot 1s forwards;
+}
+.banner1 p{
+	color: #9A9A9A;
+	animation: chuTruot 2s forwards;
+}
+.banner1 img{
+	float: right;
+	margin-top: 175px;
+
+	animation: hinhTruot 2s forwards;
+}
+@-webkit-keyframes chuTruot{
+	from{
+		opacity: 0;
+		margin-left: -100px;
+	}to{
+		opacity: 1;
+		margin-left: 130px;
+	}
+}
+
+@-webkit-keyframes hinhTruot{
+	from{
+		opacity: 0;
+		margin-right: -100px;
+	}to{
+		opacity: 1;
+		margin-right: 50px;			
+	}
+}
+.c1{
+	width: 70%;
+	float: left;
+}
+.c2{
+	width: 30%;
+	float: right;
+}
+/*===================Banner 2=========================*/
+.banner2{
+	width: 100%;
+	height: 690px;
+	background: url(../images/banner/bn2.jpg) no-repeat;
+	background-color: #FFFFFF;
+	background-size: cover;	
+}
+/*===================Banner 3=========================*/
+.banner3{
+	width: 100%;
+	height: 690px;
+	background: url(../images/banner/bn4.jpg) no-repeat;
+	background-color: #FFFFFF;
+	background-size: cover;	
+}
+/*===================Nội dung chính=========================*/
+.ndChinh{
+	width: 1000px;
+	margin: 0 auto;
+}
+.ndChinh p{
+	width: 90%;
+	margin-bottom: 45px;
+	text-align: justify;
+}
+.ndChinh h2{
+	margin-bottom: 100px;
+}
+.ndChinh img{
+	width: 100%;
+}
+/*==========*/
+.sanPham{
+	width: 100%;
+	height: 260px;
+	margin: 55px 0px 0px 0px;
+}
+.spLeft{
+	width: 50%;
+	height: 100%;
+	float: left;
+
+}
+.ndRight{
+	width: 50%;
+	height: 100%;
+	float: left;
+	padding: 0px 10px 10px 10px;
+
+}
+#sanPham3{
+	margin-bottom: 25px;
+}
+.ndChinh .ndRight span{
+	padding: 10px 40px;
+	border: 1px solid #333;
+}
+.ndChinh .ndRight span:hover{
+	background-color: #181818;
+	transition: 0.7s;
+	color: #ffffff;
+}
+.ndChinh .ndRight a{
+	text-decoration: none;
+	color: #000000;
+}

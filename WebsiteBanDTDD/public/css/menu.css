@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+#menu ul{
+    list-style-type: none;
+    background-color: #181818;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 0px !important;
+}
+#menu ul li{
+    display: inline-table;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    animation: truot 0.4s forwards;
+}
+#menu ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+}
+#menu ul li a:hover{
+    color: #18C2F3;
+    transition: 0.3s;
+
+}
+.sub_menu{
+    display: none;
+}
+#menu ul li:hover .sub_menu{
+    display: inline;
+
+}
+@-webkit-keyframes truot{
+    from{
+        opacity: 0;
+        margin-bottom: 0px;
+    }to{
+        opacity: 1;
+        margin-bottom: 15px;
+    }
+}
+ul img{
+    width: 1000px;
+    height: 180px;
+    margin-bottom: 20px;
+}

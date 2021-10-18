@@ -1,0 +1,72 @@
+/* table{
+    width: 80%;
+    border: 1px solid #333;
+}
+#hinhAnh img{
+    width: 100%;
+    height: 300px;
+}
+td, th{
+    border: 1px solid #888888;
+    text-align: justify;
+} */
+
+.khung{
+    width: 60%;
+    margin: auto;
+    padding: 50px;
+}
+.dong{
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+    border-bottom: 1px solid #888888;
+}
+.khung1{
+    width: 70%;
+    margin: auto;
+    padding: 50px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.hinhAnh{
+    width: 22%;
+    height: 100%;
+    float: left;
+}
+.noiDung{
+    width: 70%;
+    height: 100%;
+    float: left;
+    padding: 2%;
+}
+/* ====== */
+.hinhAnh img{
+    width: 100%;
+    height: 100%;
+}
+.tieuDe{
+    font-weight: bold;
+}
+#moTa{
+    text-align: justify;
+    width: 50%;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#btnXem{
+    width: 150px;
+    height: 2.5em;
+}
+#giaBan{
+    color: red;
+}
+p a{
+    text-decoration: none;
+    color: black;
+}
+p a:hover{
+    color: red;
+    transition: 0.3s;
+}
